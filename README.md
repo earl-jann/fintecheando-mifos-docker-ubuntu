@@ -26,7 +26,8 @@ $ docker build -t com.mx.fintecheando.mysql.mifosx.18.03.01 .
 $ docker build -t com.mx.fintecheando.activemq.mifosx.18.03.01 .
 ```
 4. Build the Web Server Nginx image
-4.1. Ensure you have 
+
+## Ensure you have 
 
    ```npm``` installed - goto http://nodejs.org/download/ to download installer for your OS.    
    ```ruby``` installed - goto https://www.ruby-lang.org/en/documentation/installation/ to download latest version of ruby.
@@ -55,7 +56,7 @@ $ docker ps | grep mifosx.18.03.01
 
 7. Login to Mifos using the Web UI with these credentials:
 
-username: mifos
+username: fincore
 password: password
 
 https://localhost:8443/community-app/#/ (secure web access, but this is a self signed certificate and you will have a warning in your web explorer, just ignore it and continue)
