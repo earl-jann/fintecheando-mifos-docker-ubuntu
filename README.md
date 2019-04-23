@@ -26,6 +26,13 @@ $ docker build -t com.mx.fintecheando.mysql.mifosx.18.03.01 .
 $ docker build -t com.mx.fintecheando.activemq.mifosx.18.03.01 .
 ```
 4. Build the Web Server Nginx image
+4.1. Ensure you have 
+
+   ```npm``` installed - goto http://nodejs.org/download/ to download installer for your OS.    
+   ```ruby``` installed - goto https://www.ruby-lang.org/en/documentation/installation/ to download latest version of ruby.
+
+<br/> Note: On Ubuntu Linux you can use 'sudo apt-get install npm nodejs-legacy' (nodejs-legacy is required to avoid the ""/usr/bin/env: node: No such file or directory" problem).
+<br/> Tip: If you are using Ubuntu/Linux, then doing ```npm config set prefix ~``` prevents you from having to run npm as root.
 
 ```bash
 $ docker build -t com.mx.fintecheando.nginx.mifosx.18.03.01 .
