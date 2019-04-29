@@ -1,12 +1,6 @@
 # Mifos X 18.03.01 - Docker - FinTECHeando
 
-1. Just run Docker compose to get Mifos X 18.03.01 up and running.
-
-```bash
-$ docker-compose up
-```
-
-# Or build the images
+Build the images
 
 1. Build the MIFOS X image
 
