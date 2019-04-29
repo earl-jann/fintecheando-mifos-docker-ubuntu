@@ -1,6 +1,7 @@
 # Mifos X 18.03.01 - Docker - FinTECHeando
 
-Build the images
+Build the images 
+(Run in their corresponding directory)
 
 1. Build the MIFOS X image
 
